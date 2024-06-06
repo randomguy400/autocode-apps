@@ -1,0 +1,62 @@
+{
+  "name": "randomguy400/welcome-leave",
+  "timeout": 30000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/guild/member/add.js": {
+      "name": "discord.guild.member.add"
+    },
+    "functions/events/discord/guild/member/update.js": {
+      "name": "discord.guild.member.update"
+    },
+    "functions/events/discord/guild/member/remove.js": {
+      "name": "discord.guild.member.remove"
+    },
+    "functions/events/discord/excluded-roles-add.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "excluded-roles-add"
+      }
+    },
+    "functions/events/discord/excluded-roles-clear.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "excluded-roles-clear"
+      }
+    },
+    "functions/events/discord/excluded-roles-remove.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "excluded-roles-remove"
+      }
+    },
+    "functions/events/discord/excluded-roles-list.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "excluded-roles-list"
+      }
+    },
+    "functions/events/discord/message/selectmenu/interaction.js": {
+      "name": "discord.message.selectmenu.interaction",
+      "subtype": {
+        "custom_id": "verify"
+      }
+    },
+    "functions/events/discord/invite/create.js": {
+      "name": "discord.invite.create"
+    },
+    "functions/events/discord/invite/delete.js": {
+      "name": "discord.invite.delete"
+    }
+  },
+  "env": [
+    {
+      "name": "welcome_channel",
+      "description": "Welcome channel ID"
+    },
+    {
+      "name": "PREFIX",
+      "description": "Your bot's prefix"
+    }
+  ]
+}

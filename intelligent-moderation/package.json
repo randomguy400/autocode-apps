@@ -1,0 +1,8 @@
+{
+  "name": "intelligent-moderation",
+  "author": "randomguy400 <josefwhitehouse365@gmail.com>",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}
