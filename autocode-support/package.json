@@ -1,9 +1,0 @@
-{
-  "name": "autocode-support",
-  "author": "Jacob Lee",
-  "publish": false,
-  "dependencies": {
-    "lib": "latest",
-    "lang-detector": "^1.0.6"
-  }
-}
