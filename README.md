@@ -1,10 +1,18 @@
 # autocode-apps
-#### My "apps" (aka public coding projects), which were coded and publicly available on Autocode, before it shut down.
+#### My "apps" (aka public coding projects), which were coded and publicly available on Autocode(autocode.com), before it shut down.
+
+## Apps
+
+### welcome-leave, published as Sticky Roles
+
+For giving back a member's roles when they rejoin a Discord server
+
+#### [View the full README](https://github.com/randomguy400/autocode-apps/blob/main/welcome-leave/README.md)
 
 ## Autocode background
 
-Autocode was a San Fransico/Toronto based company, who made it much easier to code and connect with API's. I think they were founded in 2016. 
-It used FunctionScript (["A language and specification for turning JavaScript functions into typed HTTP APIs"](https://github.com/FunctionScript)).
+Autocode was a San Fransico/Toronto based company, who made it much easier to code and connect with API's. They were founded in 2016 (I think). 
+It used FunctionScript (which is ["a language and specification for turning JavaScript functions into typed HTTP APIs"](https://github.com/FunctionScript)).
 
 Their most notable and used (but not financially viable for the business) was Discord API. 
 It attracted many people like me, during lockdown, who wanted to code their own Discord bots. 
@@ -17,10 +25,5 @@ However, this was not financially viable (aka lots of teenagers/young adults ope
 
 In April 2024, Autocode shut down and Keith (the CEO) [accepted a job at OpenAI](https://x.com/keithwhor/status/1775551821286965290).
 
-## Apps
-
-### welcome-leave, published as Sticky Roles
-
-#### For giving back a member's roles when they rejoin a Discord server
-
-#### [View the full README](https://github.com/randomguy400/autocode-apps/blob/main/welcome-leave/README.md)
+![Autocode t-shirt, card and stickers](autocode-goodies.jpeg)
+*A thank you from the Autocode team to all the Community Hero's, when their Community Hero program shut down*
